@@ -1,41 +1,8 @@
-# 🐣 Open Crowd Fund
+# 
 
 [![Build Status](https://travis-ci.org/rwieruch/open-crowd-fund.svg?branch=master)](https://travis-ci.org/rwieruch/open-crowd-fund)
 
-Your minimal yet powerful open source solution to crowd fund your ideas. Open crowd fund is an alternative to all the enterprise crowdfunding platforms and applications. You can do it yourself. Take control over your project fundings, stay flexible by creating the content yourself, and minimize the fees by cutting out the middlemen. Everything you need is to host it yourself.
 
-[Demo](https://www.concisejavascript.org) | Powered by [Gatsby](https://github.com/gatsbyjs/gatsby)
-
-* Use your own domain
-* Create your own content
-* Charge and secure fundings by Credit Card with Stripe
-* Minimize payment fees and choose your currency
-* Keep your funding information in Firebase
-
-## Setup
-
-* `git clone git@github.com:rwieruch/open-crowd-fund.git`
-* `cd open-crowd-fund`
-* `npm install`
-* `gatsby develop`
-* visit http://localhost:8000/
-* setup Firebase and Stripe (read External Services Setup)
-
-### Client-side Setup
-
-The client-side project is this project. You just need to provide your configurational information for it and fill in your own content to crowd fund your idea (read Customize). In addition, you need to provide the following things in this project:
-
-* provide Firebase Credentials (read External Services Setup)
-* provide Stripe Credentials (read External Services Setup)
-* optional: provide Google Analytics Key in *gatsby-config.js*
-
-### External Services Setup
-
-There are two external services that are used: a firebase database and a stripe payment server.
-
-First, Firebase is needed to store the funding information (e.g. who funded you with how much fundings). Firebase is an external service and doesn't need to be hosted by yourself.
-
-Second, the payment server is not included in this repository. There is another GitHub repository where you could simply clone partly the payment server. On the other hand, you could follow the provided tutorial to build your own minimal payment server from scratch. Here you get all the instructions on how to setup your payment server.
 
 #### Firebase Setup
 
@@ -130,6 +97,5 @@ Follow further installation instructions for the [payment server](https://github
 * `npm install`
 * `gatsby develop`
 
-Follow further installation instructions from this README to provide the necessary configuration.
 
 * Formatting with Prettier: `npm run format`

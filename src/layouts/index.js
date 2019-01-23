@@ -30,9 +30,9 @@ const App = ({ children }) => (
         {
           name: 'description',
           content:
-            'Your open source solution to crowd fund your own projects and host it yourself.'
+            'Legacy of Love Charity which raises money for ovarian cancer research'
         },
-        { name: 'keywords', content: 'open crowd fund alternative' }
+        { name: 'keywords', content: 'legacy of love charity' }
       ]}
       links={[
         {
@@ -48,13 +48,9 @@ const App = ({ children }) => (
 
     <Footer>
       <small>
-        Powered by{' '}
-        <Link href="https://github.com/rwieruch/open-crowd-fund">
-          <span>Open Crowd</span> Fund
-        </Link>{' '}
-        and created<span>
+       <span>
           {' '}
-          by <Link href="https://www.robinwieruch.de/">Robin <span>Wieruch</span></Link>
+          <Link href="https://www.philipbankier.com/"> PB Industries LLC</Link>
         </span>{' '}
         🐣
       </small>

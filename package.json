@@ -1,8 +1,8 @@
 {
-  "name": "open-crowd-fund",
-  "description": "Open Crowd Fund as open source alternative to crowd fund your own projects.",
+  "name": "legacy-of-love-charity",
+  "description": "Legacy of Love Charity for Ovarian Cancer Research",
   "version": "1.0.0",
-  "author": "Robin Wieruch <wrobin@gmx.net>",
+  "author": "Philip Bankier",
   "dependencies": {
     "axios": "^0.16.2",
     "currency-symbol-map": "^4.0.3",
@@ -34,5 +34,13 @@
   },
   "devDependencies": {
     "prettier": "^1.7.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwieruch/open-crowd-fund.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rwieruch/open-crowd-fund/issues"
+  },
+  "homepage": "https://github.com/rwieruch/open-crowd-fund#readme"
 }

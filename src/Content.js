@@ -10,56 +10,51 @@ const Content = ({ children }) => (
       />
     </BannerWrapper>
 
-    <h1>Your Crowdfunding Title</h1>
+    <h1>Join the Legacy of Love</h1>
 
     <p>
-      Hey there. My name is Robin Wieruch and over the last year I have written{' '}
-      <a href="https://roadtoreact.com/">two ebooks 📚</a> about React.js. One
-      of these ebooks was downloaded over 13.000 times, it is for free and currently
-      in its 4th edition after being out for only 12 months. It went from 90
-      pages to 190 pages. The community and I keep it updated, because there are always improvements to teach
-      React and it should include all the recent best practices from the React
-      ecosystem. 🦊
+       This is a charity fund with the goal of funding cutting edge ovarian cancer research in memory of Margo Gottesman. 
+       We have started this fund to furthur Margo's substantial legacy and to prevent others from going through the same pain and loss.
     </p>
 
-    <blockquote>
-      <p>
-        This is one of the most well-written & informative coding books I've
-        ever worked through. A solid React & ES6 introduction.
-      </p>
-      <p>
-        -{' '}
-        <a href="https://twitter.com/nhuntwalker/status/845730837823840256">
-          Nicholas Hunt-Walker, Instructor of Python at a Seattle Coding School
-        </a>
-      </p>
-    </blockquote>
+    {/*<blockquote>*/}
+      {/*<p>*/}
+        {/*This is one of the most well-written & informative coding books I've*/}
+        {/*ever worked through. A solid React & ES6 introduction.*/}
+      {/*</p>*/}
+      {/*<p>*/}
+        {/*-{' '}*/}
+        {/*<a href="https://twitter.com/nhuntwalker/status/845730837823840256">*/}
+          {/*Nicholas Hunt-Walker, Instructor of Python at a Seattle Coding School*/}
+        {/*</a>*/}
+      {/*</p>*/}
+    {/*</blockquote>*/}
 
     <p>
-      Now I want to give crowdfunding a shot to get my new ebook out of the door. ... 🚀
+      Please help us save lives
     </p>
 
-    <h2>The Pitch</h2>
+    <h2>Events</h2>
 
     <p>Lorem ipsum ...</p>
 
-    <h2>Goals and Perks</h2>
+    <h2>Goals</h2>
 
     <p>
-      This crowd funding campaign runs until ...
+      75,000$
     </p>
 
-    <ul>
-      <li>
-        If more than <strong>100 €</strong> are funded, I am able to create the ebook!
-      </li>
-      <li>
-        If more than <strong>500 €</strong> are funded, I am going to do it!
-      </li>
-      <li>
-        If more than <strong>1500 €</strong> are funded, I will ...!
-      </li>
-    </ul>
+    {/*<ul>*/}
+      {/*<li>*/}
+        {/*If more than <strong>100 €</strong> are funded, I am able to create the ebook!*/}
+      {/*</li>*/}
+      {/*<li>*/}
+        {/*If more than <strong>500 €</strong> are funded, I am going to do it!*/}
+      {/*</li>*/}
+      {/*<li>*/}
+        {/*If more than <strong>1500 €</strong> are funded, I will ...!*/}
+      {/*</li>*/}
+    {/*</ul>*/}
 
     <p>
       The payments are handled by <a href="https://stripe.com/">Stripe</a> and
@@ -67,27 +62,27 @@ const Content = ({ children }) => (
       information is saved on my server.
     </p>
 
-    <p>
-      So what are the perks for your contribution to this crowdfunding campaign ...
-    </p>
+    {/*<p>*/}
+      {/*So what are the perks for your contribution to this crowdfunding campaign ...*/}
+    {/*</p>*/}
 
-    <ul>
-      <li>
-        If you contribute <strong>5 € or more</strong>, you will be notified
-        about the release to grab a free ebook in PDF, EPUB or MOBI.
-      </li>
-      <li>
-        If you contribute <strong>25 € or more</strong>, you can choose to be
-        included in the list of backers on the official website.
-      </li>
-      <li>
-        If you contribute <strong>75 € or more</strong>, you can choose to be
-        included in the list of backers in the ebook.
-      </li>
-    </ul>
+    {/*<ul>*/}
+      {/*<li>*/}
+        {/*If you contribute <strong>5 € or more</strong>, you will be notified*/}
+        {/*about the release to grab a free ebook in PDF, EPUB or MOBI.*/}
+      {/*</li>*/}
+      {/*<li>*/}
+        {/*If you contribute <strong>25 € or more</strong>, you can choose to be*/}
+        {/*included in the list of backers on the official website.*/}
+      {/*</li>*/}
+      {/*<li>*/}
+        {/*If you contribute <strong>75 € or more</strong>, you can choose to be*/}
+        {/*included in the list of backers in the ebook.*/}
+      {/*</li>*/}
+    {/*</ul>*/}
 
     <p>
-      Thank you for reading and for your support, Robin Wieruch
+      Thank you for reading and for your support!
     </p>
 
     {children}

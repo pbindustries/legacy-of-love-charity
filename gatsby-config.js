@@ -2,7 +2,7 @@ const GOOGLE_ANALYTICS_TRACKING_ID = 'UA-65599356-7';
 
 module.exports = {
   siteMetadata: {
-    title: 'Open Crowd Fund',
+    title: 'Legacy of Love Charity for Ovarian Cancer Research',
   },
   plugins: [
     {
@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Open Crowdfund",
+        name: "Legacy of Love Charity for Ovarian Cancer Research",
         short_name: "OC",
         start_url: "/",
         background_color: "#f7f0eb",
