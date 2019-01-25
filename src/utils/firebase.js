@@ -1,3 +1,5 @@
+// import 'firebase-functions';
+
 import * as firebase from 'firebase';
 
 const config = {
@@ -16,3 +18,4 @@ const database = firebase.database();
 export { database };
 
 export default firebase;
+
