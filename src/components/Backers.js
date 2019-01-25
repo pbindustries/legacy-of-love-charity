@@ -8,7 +8,7 @@ const Backers = ({ fundings }) => (
   <div>
     {fundings.length ? (
       <div>
-        <h2>List of Backers</h2>
+        <h2>List of Supporter</h2>
         <ul>
           {fundings.map(funding => (
             <li key={funding.id}>

@@ -19,10 +19,11 @@
     "gatsby-transformer-remark": "^1.7.17",
     "react-stripe-checkout": "^2.6.3",
     "react-syntax-highlighter": "^5.7.1",
-    "typography-theme-lincoln": "^0.15.11"
+    "typography-theme-lincoln": "^0.15.11",
+    "whatwg-fetch": "^2.0.4"
   },
   "keywords": [
-    "open crowd fund alternative"
+    "charity ovarian cancer research legacy of love"
   ],
   "license": "MIT",
   "main": "n/a",
@@ -37,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rwieruch/open-crowd-fund.git"
+    "url": "git+https://github.com/pbindustries/legacy-of-love-charity.git"
   },
   "bugs": {
-    "url": "https://github.com/rwieruch/open-crowd-fund/issues"
+    "url": "https://github.com/pbindustries/legacy-of-love-charity/issues"
   },
-  "homepage": "https://github.com/rwieruch/open-crowd-fund#readme"
+  "homepage": "https://github.com/pbindustries/legacy-of-love-charity#readme"
 }

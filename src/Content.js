@@ -6,7 +6,7 @@ const Content = ({ children }) => (
     <BannerWrapper>
       <Banner
         src={__PATH_PREFIX__ + '/banner.jpg'}
-        alt="Your Crowdfunding Title"
+        alt="Legacy of Love"
       />
     </BannerWrapper>
 
@@ -16,19 +16,6 @@ const Content = ({ children }) => (
        This is a charity fund with the goal of funding cutting edge ovarian cancer research in memory of Margo Gottesman. 
        We have started this fund to furthur Margo's substantial legacy and to prevent others from going through the same pain and loss.
     </p>
-
-    {/*<blockquote>*/}
-      {/*<p>*/}
-        {/*This is one of the most well-written & informative coding books I've*/}
-        {/*ever worked through. A solid React & ES6 introduction.*/}
-      {/*</p>*/}
-      {/*<p>*/}
-        {/*-{' '}*/}
-        {/*<a href="https://twitter.com/nhuntwalker/status/845730837823840256">*/}
-          {/*Nicholas Hunt-Walker, Instructor of Python at a Seattle Coding School*/}
-        {/*</a>*/}
-      {/*</p>*/}
-    {/*</blockquote>*/}
 
     <p>
       Please help us save lives
