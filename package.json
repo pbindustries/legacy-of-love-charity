@@ -44,5 +44,8 @@
   "bugs": {
     "url": "https://github.com/pbindustries/legacy-of-love-charity/issues"
   },
-  "homepage": "https://github.com/pbindustries/legacy-of-love-charity#readme"
+  "homepage": "https://github.com/pbindustries/legacy-of-love-charity#readme",
+  "engines": {
+    "node": "8.x"
+  }
 }
