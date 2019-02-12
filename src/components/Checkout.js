@@ -124,7 +124,7 @@ class Checkout extends Component {
           </FormContent>
 
           <FormContent>
-            <Label>Your Name (leave empty to stay anonymous):</Label>
+            <Label>Your Name (optional):</Label>
 
             <Input
               type="text"

@@ -5,7 +5,7 @@ const Content = ({ children }) => (
   <div>
     <BannerWrapper>
       <Banner
-        src={__PATH_PREFIX__ + '/banner.jpg'}
+        src={__PATH_PREFIX__ + '/teal_ribbon.jpg'}
         alt="Legacy of Love"
       />
     </BannerWrapper>
@@ -20,6 +20,8 @@ const Content = ({ children }) => (
     <p>
       Please help us save lives
     </p>
+
+    <img src={__PATH_PREFIX__ + "/stats1.jpg"} alt="Stats about ovarian cancer" />
 
     <h2>Events</h2>
 
